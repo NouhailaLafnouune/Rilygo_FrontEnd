@@ -1,0 +1,299 @@
+{
+  "sidebar": {
+    "dashboard": "Dashboard",
+    "garages": "Garages",
+    "clients": "Clients",
+    "services": "Services",
+    "reservations": "Reservations",
+    "paiements": "Payments",
+    "avis": "Reviews",
+    "notifications": "Notifications",
+    "contenu": "Content",
+    "parametres": "Settings",
+    "profil": "Profile",
+    "employes": "Employees",
+    "messages": "Messages",
+    "finances": "Finances",
+    "analytique": "Analytics",
+    "missions": "Missions",
+    "administration": "Administration",
+    "espaceGarage": "Garage Space",
+    "espaceEmploye": "Employee Space",
+    "deconnexion": "Logout"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unreadCount": "{{count}} unread notification(s)",
+    "allRead": "All notifications are read",
+    "showUnreadOnly": "Unread only",
+    "showAll": "All",
+    "markAllRead": "Mark all as read",
+    "deleteRead": "Delete read",
+    "status": "Status",
+    "read": "Read",
+    "unread": "Unread",
+    "titleColumn": "Title",
+    "message": "Message",
+    "date": "Date",
+    "actions": "Actions",
+    "markAsRead": "Mark as read",
+    "noNotifications": "No notifications found",
+    "previous": "Previous",
+    "next": "Next",
+    "pageOf": "Page {{current}} of {{total}}"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "search": "Search",
+    "filter": "Filter"
+  },
+  "auth": {
+    "login": {
+      "title": "Login",
+      "subtitle": "Access your management space",
+      "welcome.title": "Welcome to",
+      "welcome.name": "RilyGo",
+      "welcome.desc": "The all-in-one platform connecting clients, garages, and mobile mechanics in Morocco.",
+      "email": "Email",
+      "password": "Password",
+      "forgot": "Forgot password?",
+      "submit": "Log In",
+      "google": "Continue with Google",
+      "loading": "Logging in...",
+      "error.invalid": "Invalid email or password",
+      "error.toomany": "Too many attempts. Try again later",
+      "error.general": "Login failed. Please try again",
+      "google.error": "Google login failed",
+      "copyright": "© {{year}} RilyGo. All rights reserved."
+    },
+    "register": {
+      "title": "Register",
+      "subtitle": "Create your management space",
+      "name": "Full name",
+      "confirmPassword": "Confirm password",
+      "submit": "Sign Up",
+      "loading": "Registering...",
+      "success": "Registration successful! A verification email has been sent.",
+      "error.required": "Please fill all fields",
+      "error.mismatch": "Passwords do not match",
+      "error.length": "Password must be at least 6 characters",
+      "error.emailUsed": "This email is already used",
+      "error.invalidEmail": "Invalid email",
+      "error.weakPassword": "Password too weak",
+      "error.general": "Registration failed. Please try again",
+      "haveAccount": "Already have an account? Log in",
+      "copyright": "© {{year}} RilyGo. All rights reserved."
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "subtitle": "Enter your email to receive a reset link",
+      "submit": "Send reset link",
+      "loading": "Sending...",
+      "success.title": "Email sent!",
+      "success.desc": "Check your email to reset your password.",
+      "error.required": "Please enter your email",
+      "error.noUser": "No account found with this email",
+      "error.invalidEmail": "Invalid email",
+      "error.general": "Failed to send email. Please try again",
+      "back": "← Back to login",
+      "noAccount": "No account yet? Sign up",
+      "copyright": "© {{year}} RilyGo. All rights reserved."
+    }
+  },
+  "pages": {
+    "services": {
+      "title": "Services Catalog",
+      "add": "+ Add service",
+      "price": "Price (DH)",
+      "duration": "Duration (min)",
+      "mobile": "Available as mobile service",
+      "update": "Update",
+      "confirm": "Confirm",
+      "cancel": "Cancel"
+    },
+    "payments": {
+      "title": "Payments Management",
+      "tabs": {
+        "all": "All",
+        "paid": "Paid",
+        "pending": "Pending",
+        "refunded": "Refunded"
+      },
+      "status": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "refunded": "Refunded"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "loading": "Loading reservations...",
+      "noReservation": "Select a reservation to start",
+      "placeholder": "Type your message...",
+      "send": "Send",
+      "sending": "Sending..."
+    },
+    "notfound": {
+      "title": "Oooops... 404!",
+      "subtitle": "The page you are looking for could not be found.",
+      "description": "Sorry, the page you are trying to access does not exist or has been deleted.",
+      "dashboard": "Dashboard",
+      "home": "Home",
+      "back": "Back",
+      "help": "Contact support"
+    },
+    "dashboard": {
+      "title": "Dashboard",
+      "subtitle": "Rilygo platform overview",
+      "cards": {
+        "totalUsers": "Total users",
+        "activeGarages": "Active garages",
+        "monthlyReservations": "Reservations (month)",
+        "monthlyRevenue": "Revenue (month)"
+      },
+      "chartReservationOverTime": "Reservations over time",
+      "chartReservationByService": "Reservations by service"
+    },
+    "clients": {
+      "title": "Client Management",
+      "subtitle": "{{count}} clients registered on the platform",
+      "search": "Search by name, email or phone...",
+      "tabs": {
+        "all": "All",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "table": {
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone",
+        "reservations": "Reservations",
+        "status": "Status",
+        "createdAt": "Registered",
+        "actions": "Actions",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "loading": "Loading..."
+    },
+    "garages": {
+      "title": "Garage Management",
+      "subtitle": "{{count}} garages registered on the platform",
+      "search": "Search by name or city...",
+      "tabs": {
+        "all": "All",
+        "pending": "Pending",
+        "approved": "Approved",
+        "suspended": "Suspended",
+        "rejected": "Rejected"
+      },
+      "table": {
+        "name": "Name",
+        "city": "City",
+        "status": "Status",
+        "rating": "Rating",
+        "services": "Services",
+        "employees": "Employees",
+        "createdAt": "Registered",
+        "actions": "Actions"
+      },
+      "status": {
+        "APPROVED": "Approved",
+        "PENDING": "Pending",
+        "SUSPENDED": "Suspended",
+        "REJECTED": "Rejected"
+      },
+      "loading": "Loading..."
+    },
+    "payments": {
+      "title": "Payment Management",
+      "subtitle": "{{count}} transactions recorded on the platform",
+      "search": "Search by ID or reservation...",
+      "tabs": {
+        "all": "All",
+        "paid": "Paid",
+        "pending": "Pending",
+        "refunded": "Refunded"
+      },
+      "table": {
+        "id": "Payment ID",
+        "method": "Method",
+        "amount": "Amount",
+        "commission": "Commission",
+        "garageAmount": "Garage Net",
+        "status": "Status",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "status": {
+        "PAID": "Paid",
+        "PENDING": "Pending",
+        "REFUNDED": "Refunded"
+      },
+      "loading": "Loading...",
+      "confirm": "Confirm",
+      "refund": "Refund",
+      "details": "Details"
+    },
+    "reservations": {
+      "title": "Reservation Management",
+      "subtitle": "Manage your customer reservations in real time",
+      "tabs": {
+        "pending": "Incoming Requests",
+        "confirmed": "In Progress",
+        "completed": "History"
+      },
+      "status": {
+        "pending": "Pending",
+        "confirmed": "Confirmed"
+      },
+      "loading": "Loading...",
+      "noResults": "No reservations found for \"{{tab}}\".",
+      "actions": {
+        "accept": "Accept",
+        "reject": "Reject"
+      }
+    },
+    "services": {
+      "mobile": "Mobile",
+      "onSite": "On Site",
+      "loading": "Loading..."
+    },
+    "employees": {
+      "all": "All",
+      "available": "Available",
+      "unavailable": "Unavailable",
+      "onLeave": "On Leave",
+      "status": {
+        "AVAILABLE": "Available",
+        "UNAVAILABLE": "Unavailable",
+        "ON_LEAVE": "On Leave"
+      }
+    },
+    "content": {
+      "title": "Content",
+      "subtitle": "Platform content management",
+      "comingSoon": "Coming soon",
+      "soon": "This section will be available soon."
+    },
+    "notFound": {
+      "title": "Oooops... 404!",
+      "subtitle": "The page you are looking for could not be found.",
+      "description": "Sorry, the page you are trying to access does not exist or has been deleted.",
+      "buttons": {
+        "dashboard": "Dashboard",
+        "home": "Home",
+        "back": "Back",
+        "support": "Contact support"
+      },
+      "needHelp": "Need help?",
+      "errorCode": "Error code: 404 | Resource not found"
+    }
+  }
+}

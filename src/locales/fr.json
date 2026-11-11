@@ -1,0 +1,299 @@
+{
+  "sidebar": {
+    "dashboard": "Tableau de bord",
+    "garages": "Garages",
+    "clients": "Clients",
+    "services": "Services",
+    "reservations": "Réservations",
+    "paiements": "Paiements",
+    "avis": "Avis",
+    "notifications": "Notifications",
+    "contenu": "Contenu",
+    "parametres": "Paramètres",
+    "profil": "Profil",
+    "employes": "Employés",
+    "messages": "Messages",
+    "finances": "Finances",
+    "analytique": "Analytique",
+    "missions": "Missions",
+    "administration": "Administration",
+    "espaceGarage": "Espace Garage",
+    "espaceEmploye": "Espace Employé",
+    "deconnexion": "Déconnexion"
+  },
+  "notifications": {
+    "title": "Notifications",
+    "unreadCount": "{{count}} notification(s) non lue(s)",
+    "allRead": "Toutes les notifications sont lues",
+    "showUnreadOnly": "Non lues seulement",
+    "showAll": "Toutes",
+    "markAllRead": "Tout marquer comme lu",
+    "deleteRead": "Supprimer les lues",
+    "status": "Statut",
+    "read": "Lu",
+    "unread": "Non lu",
+    "titleColumn": "Titre",
+    "message": "Message",
+    "date": "Date",
+    "actions": "Actions",
+    "markAsRead": "Marquer comme lu",
+    "noNotifications": "Aucune notification trouvée",
+    "previous": "Précédent",
+    "next": "Suivant",
+    "pageOf": "Page {{current}} sur {{total}}"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "add": "Ajouter",
+    "search": "Rechercher",
+    "filter": "Filtrer"
+  },
+  "auth": {
+    "login": {
+      "title": "Connexion",
+      "subtitle": "Accédez à votre espace de gestion",
+      "welcome.title": "Bienvenue sur",
+      "welcome.name": "RilyGo",
+      "welcome.desc": "La plateforme tout-en-un pour connecter clients, garages et mécaniciens mobiles au Maroc.",
+      "email": "Email",
+      "password": "Mot de passe",
+      "forgot": "Mot de passe oublié ?",
+      "submit": "Se Connecter",
+      "google": "Continuer avec Google",
+      "loading": "Connexion en cours...",
+      "error.invalid": "Email ou mot de passe incorrect",
+      "error.toomany": "Trop de tentatives. Réessayez plus tard",
+      "error.general": "Échec de la connexion. Veuillez réessayer",
+      "google.error": "Échec de la connexion Google",
+      "copyright": "© {{year}} RilyGo. Tous droits réservés."
+    },
+    "register": {
+      "title": "Inscription",
+      "subtitle": "Créez votre espace de gestion",
+      "name": "Nom complet",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "S'inscrire",
+      "loading": "Inscription en cours...",
+      "success": "Inscription réussie ! Un email de vérification a été envoyé.",
+      "error.required": "Veuillez remplir tous les champs",
+      "error.mismatch": "Les mots de passe ne correspondent pas",
+      "error.length": "Le mot de passe doit contenir au moins 6 caractères",
+      "error.emailUsed": "Cet email est déjà utilisé",
+      "error.invalidEmail": "Email invalide",
+      "error.weakPassword": "Mot de passe trop faible",
+      "error.general": "Échec de l'inscription. Veuillez réessayer",
+      "haveAccount": "Déjà un compte ? Se connecter",
+      "copyright": "© {{year}} RilyGo. Tous droits réservés."
+    },
+    "forgotPassword": {
+      "title": "Mot de passe oublié",
+      "subtitle": "Entrez votre email pour recevoir un lien de réinitialisation",
+      "submit": "Envoyer le lien de réinitialisation",
+      "loading": "Envoi en cours...",
+      "success.title": "Email envoyé !",
+      "success.desc": "Vérifiez votre boîte mail pour réinitialiser votre mot de passe.",
+      "error.required": "Veuillez entrer votre email",
+      "error.noUser": "Aucun compte trouvé avec cet email",
+      "error.invalidEmail": "Email invalide",
+      "error.general": "Échec de l'envoi de l'email. Veuillez réessayer",
+      "back": "← Retour à la connexion",
+      "noAccount": "Pas encore de compte ? S'inscrire",
+      "copyright": "© {{year}} RilyGo. Tous droits réservés."
+    }
+  },
+  "pages": {
+    "services": {
+      "title": "Catalogue des Services",
+      "add": "+ Ajouter un service",
+      "price": "Prix (DH)",
+      "duration": "Durée (min)",
+      "mobile": "Disponible en service mobile",
+      "update": "Mettre à jour",
+      "confirm": "Confirmer",
+      "cancel": "Annuler"
+    },
+    "payments": {
+      "title": "Gestion des paiements",
+      "tabs": {
+        "all": "Tous",
+        "paid": "Payés",
+        "pending": "En attente",
+        "refunded": "Remboursés"
+      },
+      "status": {
+        "paid": "Payé",
+        "pending": "Attente",
+        "refunded": "Remboursé"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "loading": "Chargement des réservations...",
+      "noReservation": "Sélectionnez une réservation pour commencer",
+      "placeholder": "Tapez votre message...",
+      "send": "Envoyer",
+      "sending": "Envoi..."
+    },
+    "notfound": {
+      "title": "Oooops... 404!",
+      "subtitle": "La page que vous recherchez n'a pas pu être trouvée.",
+      "description": "Désolé, la page que vous essayez d'accéder n'existe pas ou a été supprimée.",
+      "dashboard": "Tableau de bord",
+      "home": "Accueil",
+      "back": "Retour",
+      "help": "Contactez le support"
+    },
+    "dashboard": {
+      "title": "Tableau de bord",
+      "subtitle": "Vue d'ensemble de la plateforme Rilygo",
+      "cards": {
+        "totalUsers": "Utilisateurs totaux",
+        "activeGarages": "Garages actifs",
+        "monthlyReservations": "Réservations (mois)",
+        "monthlyRevenue": "Revenu (mois)"
+      },
+      "chartReservationOverTime": "Réservations au fil du temps",
+      "chartReservationByService": "Réservations par service"
+    },
+    "clients": {
+      "title": "Gestion des clients",
+      "subtitle": "{{count}} clients enregistrés sur la plateforme",
+      "search": "Rechercher par nom, email ou téléphone...",
+      "tabs": {
+        "all": "Tous",
+        "active": "Actifs",
+        "inactive": "Inactifs"
+      },
+      "table": {
+        "name": "Nom",
+        "email": "Email",
+        "phone": "Téléphone",
+        "reservations": "Réservations",
+        "status": "Statut",
+        "createdAt": "Inscrit le",
+        "actions": "Actions",
+        "active": "Actif",
+        "inactive": "Inactif"
+      },
+      "loading": "Chargement..."
+    },
+    "garages": {
+      "title": "Gestion des garages",
+      "subtitle": "{{count}} garages enregistrés sur la plateforme",
+      "search": "Rechercher par nom ou ville...",
+      "tabs": {
+        "all": "Tous",
+        "pending": "En attente",
+        "approved": "Approuvés",
+        "suspended": "Suspendus",
+        "rejected": "Rejetés"
+      },
+      "table": {
+        "name": "Nom",
+        "city": "Ville",
+        "status": "Statut",
+        "rating": "Note",
+        "services": "Services",
+        "employees": "Employés",
+        "createdAt": "Inscrit le",
+        "actions": "Actions"
+      },
+      "status": {
+        "APPROVED": "Approuvé",
+        "PENDING": "En attente",
+        "SUSPENDED": "Suspendu",
+        "REJECTED": "Rejeté"
+      },
+      "loading": "Chargement..."
+    },
+    "payments": {
+      "title": "Gestion des paiements",
+      "subtitle": "{{count}} transactions enregistrées sur la plateforme",
+      "search": "Rechercher par ID ou réservation...",
+      "tabs": {
+        "all": "Tous",
+        "paid": "Payés",
+        "pending": "En attente",
+        "refunded": "Remboursés"
+      },
+      "table": {
+        "id": "ID Paiement",
+        "method": "Méthode",
+        "amount": "Montant",
+        "commission": "Commission",
+        "garageAmount": "Net Garage",
+        "status": "Statut",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "status": {
+        "PAID": "Payé",
+        "PENDING": "Attente",
+        "REFUNDED": "Remboursé"
+      },
+      "loading": "Chargement...",
+      "confirm": "Confirmer",
+      "refund": "Rembourser",
+      "details": "Détails"
+    },
+    "reservations": {
+      "title": "Gestion des réservations",
+      "subtitle": "Gérez vos réservations clients en temps réel",
+      "tabs": {
+        "pending": "Demandes entrantes",
+        "confirmed": "En cours",
+        "completed": "Historique"
+      },
+      "status": {
+        "pending": "En attente",
+        "confirmed": "Confirmée"
+      },
+      "loading": "Chargement...",
+      "noResults": "Aucune réservation trouvée pour \"{{tab}}\".",
+      "actions": {
+        "accept": "Accepter",
+        "reject": "Rejeter"
+      }
+    },
+    "services": {
+      "mobile": "Mobile",
+      "onSite": "Sur place",
+      "loading": "Chargement..."
+    },
+    "employees": {
+      "all": "Tous",
+      "available": "Disponibles",
+      "unavailable": "Indisponibles",
+      "onLeave": "En congé",
+      "status": {
+        "AVAILABLE": "Disponible",
+        "UNAVAILABLE": "Indisponible",
+        "ON_LEAVE": "En congé"
+      }
+    },
+    "content": {
+      "title": "Contenu",
+      "subtitle": "Gestion du contenu de la plateforme",
+      "comingSoon": "En cours de développement",
+      "soon": "Cette section sera bientôt disponible."
+    },
+    "notFound": {
+      "title": "Oooops... 404!",
+      "subtitle": "La page que vous recherchez n'a pas pu être trouvée.",
+      "description": "Désolé, la page que vous essayez d'accéder n'existe pas ou a été supprimée.",
+      "buttons": {
+        "dashboard": "Tableau de bord",
+        "home": "Accueil",
+        "back": "Retour",
+        "support": "Contactez le support"
+      },
+      "needHelp": "Besoin d'aide?",
+      "errorCode": "Code d'erreur: 404 | Ressource non trouvée"
+    }
+  }
+}

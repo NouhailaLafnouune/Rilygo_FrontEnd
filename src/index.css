@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Dark Mode Styles */
+html.dark {
+  @apply bg-slate-900 text-slate-100;
+}
+
+html.dark body {
+  @apply bg-slate-900;
+  color-scheme: dark;
+}
+
+html.dark .bg-white {
+  @apply bg-slate-800;
+}
+
+html.dark .bg-slate-50 {
+  @apply bg-slate-900;
+}
+
+html.dark .bg-slate-100 {
+  @apply bg-slate-800;
+}
+
+html.dark .text-slate-900 {
+  @apply text-slate-100;
+}
+
+html.dark .text-slate-700 {
+  @apply text-slate-300;
+}
+
+html.dark .text-slate-500 {
+  @apply text-slate-400;
+}
+
+html.dark .border-slate-200 {
+  @apply border-slate-700;
+}
+
+html.dark .border-slate-300 {
+  @apply border-slate-600;
+}
+
+html.dark .bg-gray-50 {
+  @apply bg-slate-800;
+}
+
+html.dark .text-gray-900 {
+  @apply text-slate-100;
+}
+
+html.dark .text-gray-700 {
+  @apply text-slate-300;
+}
+
+html.dark .text-gray-500 {
+  @apply text-slate-400;
+}
+
+html.dark .border-gray-200 {
+  @apply border-slate-700;
+}
+
+html.dark .bg-[#F8F9FA] {
+  @apply bg-slate-900;
+}
+
+html.dark .bg-[#E9ECEF] {
+  @apply bg-slate-700;
+}
+
+html.dark input,
+html.dark textarea {
+  @apply bg-slate-700 text-slate-100 border-slate-600;
+}
+
+html.dark input::placeholder {
+  @apply text-slate-400;
+}
+
+html.dark select {
+  @apply bg-slate-700 text-slate-100 border-slate-600;
+}
